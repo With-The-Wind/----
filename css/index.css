@@ -406,6 +406,8 @@ a {
   height: 0.6rem;
   padding-left: 0.4rem;
   box-sizing: border-box;
+  margin-top: 0.05rem;
+  padding-top: 0.05rem;
   float: left;
 }
 
@@ -413,7 +415,6 @@ a {
   width: 5%;
   height: 100%;
   float: left;
-  border-bottom: 1px solid #e6e6e6;
 }
 
 .bodyer_right .things .finished-sekuang .skcolor {
@@ -438,7 +439,6 @@ a {
   width: 95%;
   height: 100%;
   float: left;
-  border-bottom: 1px solid #e6e6e6;
 }
 
 .bodyer_right .things .finished-message span {
@@ -450,6 +450,16 @@ a {
   padding-left: 0.15rem;
   font-size: 16px;
   border-radius: 50%;
+}
+
+.bodyer_right .things .finished-message span input {
+  float: left;
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  background: none;
+  line-height: 0.6rem;
 }
 
 .bodyer_right .add-thing {
@@ -465,13 +475,17 @@ a {
 }
 
 /*右边结束*/
+.title_list .title-link .title-color span.bgs1 {
+  background: #C571E4;
+}
+
 .title_list .title-link .title-color.bgs1 {
   color: #C571E4;
   border-color: #C571E4;
   background: #fff;
 }
 
-.title_list .title-link .title-color span.bgs1 {
+.title_list .title-link .title-color.bgs1 span {
   background: #C571E4;
 }
 
@@ -489,6 +503,11 @@ a {
 
 .bodyer_right.bgs1 .things .finished-sekuang .skcolor span {
   background: #C571E4;
+}
+
+.bodyer_right.bgs1 .things.bgs1 {
+  border: 1px solid #ccc;
+  border-color: #C571E4;
 }
 
 .bodyer_right .by-select .selected-warpping .sw-input.bgs1 {
@@ -520,13 +539,17 @@ a {
   background: #C571E4;
 }
 
+.title_list .title-link .title-color span.bgs2 {
+  background: #6DDB34;
+}
+
 .title_list .title-link .title-color.bgs2 {
   color: #6DDB34;
   border-color: #6DDB34;
   background: #fff;
 }
 
-.title_list .title-link .title-color span.bgs2 {
+.title_list .title-link .title-color.bgs2 span {
   background: #6DDB34;
 }
 
@@ -544,6 +567,11 @@ a {
 
 .bodyer_right.bgs2 .things .finished-sekuang .skcolor span {
   background: #6DDB34;
+}
+
+.bodyer_right.bgs2 .things.bgs2 {
+  border: 1px solid #ccc;
+  border-color: #6DDB34;
 }
 
 .bodyer_right .by-select .selected-warpping .sw-input.bgs2 {
@@ -575,13 +603,17 @@ a {
   background: #6DDB34;
 }
 
+.title_list .title-link .title-color span.bgs3 {
+  background: #45ABFB;
+}
+
 .title_list .title-link .title-color.bgs3 {
   color: #45ABFB;
   border-color: #45ABFB;
   background: #fff;
 }
 
-.title_list .title-link .title-color span.bgs3 {
+.title_list .title-link .title-color.bgs3 span {
   background: #45ABFB;
 }
 
@@ -599,6 +631,11 @@ a {
 
 .bodyer_right.bgs3 .things .finished-sekuang .skcolor span {
   background: #45ABFB;
+}
+
+.bodyer_right.bgs3 .things.bgs3 {
+  border: 1px solid #ccc;
+  border-color: #45ABFB;
 }
 
 .bodyer_right .by-select .selected-warpping .sw-input.bgs3 {
@@ -630,13 +667,17 @@ a {
   background: #45ABFB;
 }
 
+.title_list .title-link .title-color span.bgs4 {
+  background: #F5CB00;
+}
+
 .title_list .title-link .title-color.bgs4 {
   color: #F5CB00;
   border-color: #F5CB00;
   background: #fff;
 }
 
-.title_list .title-link .title-color span.bgs4 {
+.title_list .title-link .title-color.bgs4 span {
   background: #F5CB00;
 }
 
@@ -654,6 +695,11 @@ a {
 
 .bodyer_right.bgs4 .things .finished-sekuang .skcolor span {
   background: #F5CB00;
+}
+
+.bodyer_right.bgs4 .things.bgs4 {
+  border: 1px solid #ccc;
+  border-color: #F5CB00;
 }
 
 .bodyer_right .by-select .selected-warpping .sw-input.bgs4 {
@@ -685,13 +731,17 @@ a {
   background: #F5CB00;
 }
 
+.title_list .title-link .title-color span.bgs5 {
+  background: #9C875C;
+}
+
 .title_list .title-link .title-color.bgs5 {
   color: #9C875C;
   border-color: #9C875C;
   background: #fff;
 }
 
-.title_list .title-link .title-color span.bgs5 {
+.title_list .title-link .title-color.bgs5 span {
   background: #9C875C;
 }
 
@@ -709,6 +759,11 @@ a {
 
 .bodyer_right.bgs5 .things .finished-sekuang .skcolor span {
   background: #9C875C;
+}
+
+.bodyer_right.bgs5 .things.bgs5 {
+  border: 1px solid #ccc;
+  border-color: #9C875C;
 }
 
 .bodyer_right .by-select .selected-warpping .sw-input.bgs5 {
@@ -740,13 +795,17 @@ a {
   background: #9C875C;
 }
 
+.title_list .title-link .title-color span.bgs6 {
+  background: #F4246A;
+}
+
 .title_list .title-link .title-color.bgs6 {
   color: #F4246A;
   border-color: #F4246A;
   background: #fff;
 }
 
-.title_list .title-link .title-color span.bgs6 {
+.title_list .title-link .title-color.bgs6 span {
   background: #F4246A;
 }
 
@@ -764,6 +823,11 @@ a {
 
 .bodyer_right.bgs6 .things .finished-sekuang .skcolor span {
   background: #F4246A;
+}
+
+.bodyer_right.bgs6 .things.bgs6 {
+  border: 1px solid #ccc;
+  border-color: #F4246A;
 }
 
 .bodyer_right .by-select .selected-warpping .sw-input.bgs6 {
@@ -795,13 +859,17 @@ a {
   background: #F4246A;
 }
 
+.title_list .title-link .title-color span.bgs7 {
+  background: #F69701;
+}
+
 .title_list .title-link .title-color.bgs7 {
   color: #F69701;
   border-color: #F69701;
   background: #fff;
 }
 
-.title_list .title-link .title-color span.bgs7 {
+.title_list .title-link .title-color.bgs7 span {
   background: #F69701;
 }
 
@@ -819,6 +887,11 @@ a {
 
 .bodyer_right.bgs7 .things .finished-sekuang .skcolor span {
   background: #F69701;
+}
+
+.bodyer_right.bgs7 .things.bgs7 {
+  border: 1px solid #ccc;
+  border-color: #F69701;
 }
 
 .bodyer_right .by-select .selected-warpping .sw-input.bgs7 {

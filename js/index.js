@@ -49,6 +49,7 @@ remind.controller('mainCtrl',['$scope',function($scope){
   },
   $scope.changed=function(v){
     $scope.currentlist.color=v;
+    $scope.list.color=v;
   },
   $scope.addthing=function(){
     var lens = $scope.currentlist.shixiang.length;
@@ -62,6 +63,7 @@ remind.controller('mainCtrl',['$scope',function($scope){
     }
     $scope.currentlist.shixiang.push(thing);
     $scope.saveDate();
+    $scope.nofinished = $scope.nofinished+1
   },
   $scope.delete=function(){
     $scope.currentlist.shixiang = $scope.currentlist.shixiang.filter(function(v,i){

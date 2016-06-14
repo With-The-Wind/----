@@ -66,21 +66,21 @@
         </div>
       </div>
       <div class="finished-message valign">
-        <span>{{k.name}}</span>
+        <span><input type="text" ng-change="saveDate()" ng-model="k.name" value="k.name"></span>
       </div>
     </div>
     <div class="by-finished">
       <div class="c-down"></div>
       <span class="by-f-finished">未完成 {{nofinished}}: 项<span
     </div>
-    <div class="no-finished-thing things valign-wrapper {{currentlist.color}}" ng-show="!k.theme"  ng-repeat="k in currentlist.shixiang">
+    <div class="no-finished-thing things valign-wrapper" ng-click="type!==type" ng-class="{'{{currentlist.color}}':type===true}" ng-init="type=false" ng-show="!k.theme"  ng-repeat="k in currentlist.shixiang">
       <div class="finished-sekuang {{currentlist.color}}">
         <div class="skcolor valign" ng-click="k.theme=!k.theme">
           <span></span>
         </div>
       </div>
       <div class="finished-message valign">
-        <span>{{k.name}}</span>
+        <span><input type="text" ng-change="saveDate()" ng-model="k.name" value="k.name"></span>
       </div>
     </div>
     <input type="text" class="add-thing" ng-click="addthing()" value="新项目...">
